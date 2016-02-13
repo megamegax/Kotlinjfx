@@ -18,8 +18,4 @@ class MainView : View() {
         title = "Teszt"
         testButton.text = "Teszt2"
     }
-
-    private fun show(view: View) {
-
-    }
 }
