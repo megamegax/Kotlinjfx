@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.0-rc-1036"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.0"
     }
 }
 
@@ -21,8 +21,8 @@ repositories {
 
 dependencies {
 
-    compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.0-rc-1036"
-    compile 'org.jetbrains.kotlin:kotlin-compiler:1.0.0-rc-1036'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.0"
+    compile 'org.jetbrains.kotlin:kotlin-compiler:1.0.0'
     compile 'no.tornado:fx:1.2.2'
     compile 'nl.komponents.kovenant:kovenant:3.0.0-rc.1036.1'
     compile fileTree(dir: 'libs', include: '*.jar')
